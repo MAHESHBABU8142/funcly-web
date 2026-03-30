@@ -1,0 +1,26 @@
+
+
+{
+  "array_methods": [
+    {
+      "title": "push(e1,e2,...)",
+      "description": "Adds one or more elements to the end of an array"
+    },
+    {
+      "title": "pop()",
+      "description": "Removes the last element from an array"
+    },
+    {
+      "title": "shift()",
+      "description": "Removes the first element from an array"
+    },
+    {
+      "title": "unshift(e1,e2,...)",
+      "description": "Adds one or more elements to the beginning of an array"
+    },
+    {
+      "title": "reverse()",
+      "description": "Reverses the order of the elements in an array"
+    }
+]
+}
