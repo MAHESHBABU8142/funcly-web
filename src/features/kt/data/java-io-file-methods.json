@@ -1,0 +1,58 @@
+{
+    "data":[
+        {
+        "category":"File Properties",
+        "methods":[
+        {
+            "title": "exists(): Boolean"
+        },
+        {
+            "title": "isFile(): Boolean"
+        },
+        {
+            "title": "isDirectory(): Boolean"
+        },
+        {
+           "title": "length(): Long (bytes)"
+
+        }
+    ]
+        },
+
+    {
+        "category":"File Metadata",
+        "methods":[
+            {
+                "title":"file.name"
+            },
+            {
+                "title":"file.path"
+            },
+            {
+                "title":"file.absolutePath"
+            },
+            {
+                "title":"file.parent"
+            },
+            {
+                "title":"file.lastModified(): Long (ms)"
+            }
+        ]
+    },
+    {
+        "category":"Directory Handling",
+        "methods":[
+            {
+                "title":"mkdir(path): Boolean",
+                "description":"Creates a new directory"
+            },
+            {
+                "title":"mkdirs(path): Boolean",
+                "description":"Creates a new directory and any necessary parent directories"
+            }
+        ]
+    }
+
+    ]
+   
+}
